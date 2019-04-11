@@ -66,12 +66,12 @@ namespace NMS {
         for (int i=0; i<ds.Length; i++) {
             if (ds[i].name == name && ds[i].active == false && state == true) {
                 ds[i].active = state;
-                Console.WriteLine("NMS: Changed device {0} to active", device_name);
+                Console.WriteLine("NMS: Changed device {0} to active", name);
                 updateConfigFile(ds);
                 return;
             } else if (ds[i].name == name && ds[i].active == true && state == false) {
                 ds[i].active = state;
-                Console.WriteLine("NMS: Changed device {0} to inactive", device_name);
+                Console.WriteLine("NMS: Changed device {0} to inactive", name);
                 updateConfigFile(ds);
                 return;
             }
