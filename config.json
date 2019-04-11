@@ -1,0 +1,32 @@
+[
+  {
+    "name": "R1",
+    "changed": true,
+    "connections": [
+      {
+        "portOut": 11,
+        "label": 27
+      },
+      {
+        "portOut": 12,
+        "label": 35
+      }
+    ],
+    "active": false
+  },
+  {
+    "name": "R2",
+    "changed": false,
+    "connections": [
+      {
+        "portOut": 24,
+        "label": 12
+      },
+      {
+        "portOut": 23,
+        "label": 32
+      }
+    ],
+    "active": true
+  }
+]
